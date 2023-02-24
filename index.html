@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort data</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+ .container {
+    width: 80vw;
+    margin: auto;
+    height: 50vh;
+ }
+ .container-data {
+    width: 70vw;
+    margin: auto;
+    margin-top: 30px;
+ }
+ .container-data table tr td{
+    width: 85%;
+    height: 50px;
+    padding-left: 15px;
+    font-size: 20px;
+ }
+ .container-data table tr th{
+    width: 400px;
+    font-size: 20px;
+ }
+
+ .container-data > table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+ }
+
+
+</style>
+<body>
+    <h1 style="text-align: center; margin-top: 100px;">Welcome minimalistic APP</h1>
+    <div class="container">
+        <div class="container-data">
+            <table>
+               <tr>
+                <th>Distinction</th>
+                <td id="distinction"></td>
+               </tr>
+               <tr>
+                <th>Merit</th>
+                <td id="merit"></td>
+               </tr>
+               <tr>
+                <th>Pass</th>
+                <td id="pass"></td>
+               </tr>
+               <tr>
+                <th>Fail</th>
+                <td id="fail"></td>
+               </tr>
+              </table>  
+
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
